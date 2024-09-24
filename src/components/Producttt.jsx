@@ -64,7 +64,7 @@ class Moruk extends Component {
       
     };
     const slideImages = [
-      "../src/pictures/varya1.png",
+      "../pictures/varya1.png",
       "https://s3-alpha-sig.figma.com/img/922a/3efe/1203f48d6b031290ad007f9072b582b0?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=C0oo7LR3T5Vt6ZVK2cGFXZA1IkY1~kNZG-NGmYISUO~j1KL7Y8ysYe~I8ojVf0G-q1dXvvtfeY8yQJK3LNWCX5hbIYTFCNZYy9rJfPMR7sAjs8FSvZ~JSh~PFDAnoFbs2ggfyDE4iLFdMz~nBYlyWLy50uHwW4UqwhQzbCGHc4opwaP1m4RSxmoVk6fDWdhcNsUORy2wSYNqNt1eYFudMbfoU~UHm9GpgusX6XeTXGzdbDIWfYtDvnpaSQh5MDM~y80DFJWBEF3BIQDr-Q~NIkUMdhkLBqUixPS9n6tk7urlRhx2nBhQomhweVXwRQT4WpwecirYMZfUioYrlX19UA__",
       "https://s3-alpha-sig.figma.com/img/514f/d1bc/09479256ffe97021ba8de0d738b75b81?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RDn7pG46TPxgEJ1p1P8f2mgA7LCWgGMtlsgGvdsEqxdHg4J08axjLvEPulyzbqiMy4IKgSDAqe0OiX3HFX0A9Z1p6aMrjG956aYpwDyMZjcnFsqfd8n56yojK3X1SeE6rDrQ7zMzPeYKHxH~EftY2Ky5jgsUlnjthqSKKaG1-F4L0t7zGPvYJNfqpkejjnJpJfrU5lY~rLYqokUkFRAp3UmA3OBfg1dxKC6w7YprPg-Ojw6E5WjCpKQM6I-kqSEQDOvGf091yQg43sZEDRpoeFFLAv8gMcqGlTyxObR2M0kJRv8U8TFQ6MCQmPnyaqOkp1bxl6dn1q6wOzxL-oK4AQ__"
       
@@ -120,13 +120,13 @@ class Moruk1 extends Component {
       easing: "ease"
     };
     const slideImages = [
-      {Number:"1",Text1:"Позвонить или написать нам",image:"../src/pictures/telefon1.png",Text2:"Позвоните нам по телефону, напишите в мессенджерах или оставьте заявку на сайте. Расскажите какой праздник хотите, какой возраст  детей, их любимые герои, сколько вас человек "},
+      {Number:"1",Text1:"Позвонить или написать нам",image:"../pictures/telefon1.png",Text2:"Позвоните нам по телефону, напишите в мессенджерах или оставьте заявку на сайте. Расскажите какой праздник хотите, какой возраст  детей, их любимые герои, сколько вас человек "},
 
-      {Number:"2",Text1:"Выбрать программу праздника",image:"../src/pictures/paint.png",Text2:"Администратор по телефону сориентирует вас о программах, дополнениях и поможет выбрать наилучшую для ваших детей тематику и программу праздника."},
+      {Number:"2",Text1:"Выбрать программу праздника",image:"../pictures/paint.png",Text2:"Администратор по телефону сориентирует вас о программах, дополнениях и поможет выбрать наилучшую для ваших детей тематику и программу праздника."},
 
-      {Number:"3",Text1:"Выбрать дату праздника",image:"../src/pictures/takvim.png",Text2:"Выбрать дату и время и место праздника"},
+      {Number:"3",Text1:"Выбрать дату праздника",image:"../pictures/takvim.png",Text2:"Выбрать дату и время и место праздника"},
 
-      {Number:"4",Text1:"Внести предоплату",image:"../src/pictures/cuzdan.png",Text2:"Внесите предоплату в размере 1000 рублей любым удобным способом: обычным переводом с помощью СБП либо наличными"},
+      {Number:"4",Text1:"Внести предоплату",image:"../pictures/cuzdan.png",Text2:"Внесите предоплату в размере 1000 рублей любым удобным способом: обычным переводом с помощью СБП либо наличными"},
 
       {Number:"5",Text1:"Готово!",image:"../src/pictures/ok.png",Text2:"Отлично, вам остается лишь  наслаждаться праздником"}
       
@@ -307,7 +307,7 @@ class Moruk3 extends Component {
       {image1:"../src/pictures/image113.png",
       image2:"../src/pictures/image114.png",
       image3:"../src/pictures/image115.png"},
-      {image1:"../src/pictures/image116.png"},
+      {image1:"../pictures/image116.png"},
 
     ];
 
@@ -389,17 +389,17 @@ function Producttt() {
           
               <div className='column' style={{width:"100%"}}>
               <div className='soltaraf'>
-                <img className='ev' src="../src/pictures/ev.png" alt="" />
+                <img className='ev' src="../pictures/ev.png" alt="" />
                 <p className='soltaraf1'>У вас дома или в кафе</p>
               </div>
               
               
               <div className='soltaraf'>
-                <img className='palace' src="../src/pictures/palace.png" alt="" />
+                <img className='palace' src="../pictures/palace.png" alt="" />
                 <p className='soltaraf2'>В нашем пространстве</p>
               </div>
               <div className='soltaraf'>
-                <img className='park' src="../src/pictures/park.png" alt="" />
+                <img className='park' src="../pictures/park.png" alt="" />
                 <p className='soltaraf3'>В детском саду или школе</p>
               </div>
               <div className='soltaraf'>
