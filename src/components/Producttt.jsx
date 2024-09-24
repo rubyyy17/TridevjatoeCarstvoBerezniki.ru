@@ -403,7 +403,7 @@ function Producttt() {
                 <p className='soltaraf3'>В детском саду или школе</p>
               </div>
               <div className='soltaraf'>
-                <img className='atli' src="../../public/atli.png" alt="" />
+                <img className='atli' src="../pictures/atli.png" alt="" />
                 <p className='soltaraf4'>На улице, в парке или во дворе </p>
               </div>
               </div>
