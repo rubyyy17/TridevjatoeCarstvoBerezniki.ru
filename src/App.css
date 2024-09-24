@@ -1978,13 +1978,4 @@ justify-content: center;
 
 }
 
-@media(max-width:1287px){
-    .groupdiv{
-        
-            width: 100%;
-            justify-content: center;
-            align-items: center;
-        
 
-    }
-}
