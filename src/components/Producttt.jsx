@@ -128,7 +128,7 @@ class Moruk1 extends Component {
 
       {Number:"4",Text1:"Внести предоплату",image:"../pictures/cuzdan.png",Text2:"Внесите предоплату в размере 1000 рублей любым удобным способом: обычным переводом с помощью СБП либо наличными"},
 
-      {Number:"5",Text1:"Готово!",image:"../src/pictures/ok.png",Text2:"Отлично, вам остается лишь  наслаждаться праздником"}
+      {Number:"5",Text1:"Готово!",image:"../pictures/ok.png",Text2:"Отлично, вам остается лишь  наслаждаться праздником"}
       
       ];
     return (
@@ -195,20 +195,20 @@ class Moruk2 extends Component {
     const slideData = [
       {
         name: "Алексей Вахрушев",
-        imagewk:"../src/pictures/Vector.png",
-        image: "../src/pictures/varya1.png",
+        imagewk:"../pictures/Vector.png",
+        image: "../pictures/varya1.png",
         text: "Etkinlik açıklaması 1.",
       },
       {
         name: "Алексей Вахрушев",
-        imagewk:"../src/pictures/Vector.png",
-        image: "../src/pictures/cuzdan.png",
+        imagewk:"../pictures/Vector.png",
+        image: "../pictures/cuzdan.png",
         text: "Etkinlik açıklaması 2.",
       },
       {
         name: "Алексей Вахрушев",
-        imagewk:"../src/pictures/Vector.png",
-        image: "../src/pictures/varya2.png",
+        imagewk:"../pictures/Vector.png",
+        image: "../pictures/varya2.png",
         text: "Etkinlik açıklaması 3.",
       },
     ];
@@ -235,7 +235,7 @@ class Moruk2 extends Component {
                   <div className='row'>
                     
                     {[...Array(5)].map((_, starIndex) => (
-                      <img key={starIndex} style={{ width: "30px", height: "30px" }} src="../src/pictures/star.png" alt="Yıldız derecelendirmesi" />
+                      <img key={starIndex} style={{ width: "30px", height: "30px" }} src="../pictures/star.png" alt="Yıldız derecelendirmesi" />
                     ))}
                   </div>
                 </div>
@@ -292,21 +292,21 @@ class Moruk3 extends Component {
     };
 
     const slideData = [
-      {image1:"../src/pictures/image101.png",
-      image2:"../src/pictures/image102.png",
-      image3:"../src/pictures/image103.png"},
-      {image1:"../src/pictures/image104.png",
-      image2:"../src/pictures/image105.png",
-      image3:"../src/pictures/image106.png"},
-      {image1:"../src/pictures/image107.png",
-      image2:"../src/pictures/image108.png",
-      image3:"../src/pictures/image109.png"},
-      {image1:"../src/pictures/image110.png",
-      image2:"../src/pictures/image111.png",
-      image3:"../src/pictures/image112.png"},
-      {image1:"../src/pictures/image113.png",
-      image2:"../src/pictures/image114.png",
-      image3:"../src/pictures/image115.png"},
+      {image1:"../pictures/image101.png",
+      image2:"../pictures/image102.png",
+      image3:"../pictures/image103.png"},
+      {image1:"../pictures/image104.png",
+      image2:"../pictures/image105.png",
+      image3:"../pictures/image106.png"},
+      {image1:"../pictures/image107.png",
+      image2:"../pictures/image108.png",
+      image3:"../pictures/image109.png"},
+      {image1:"../pictures/image110.png",
+      image2:"../pictures/image111.png",
+      image3:"../pictures/image112.png"},
+      {image1:"../pictures/image113.png",
+      image2:"../pictures/image114.png",
+      image3:"../pictures/image115.png"},
       {image1:"../pictures/image116.png"},
 
     ];
@@ -433,7 +433,7 @@ function Producttt() {
           <div className="groupdivweb">
           <div className='groupdiv'>
           <div >
-          <img className='foto1' src="../src/pictures/pale.png" alt="" />
+          <img className='foto1' src="../pictures/pale.png" alt="" />
           </div>
           <h2 className='icbaslik1'>
             Тематические <br />
@@ -458,7 +458,7 @@ function Producttt() {
 
           <div className='groupdiv'>
           <div >
-          <img className='foto1' src="../src/pictures/pale1.png" alt="" />
+          <img className='foto1' src="../pictures/pale1.png" alt="" />
           </div>
           <h2 className='icbaslik1'>
           Любимый герой проведет<br /> незабываемый праздник 
@@ -478,7 +478,7 @@ function Producttt() {
 
           <div className='groupdiv'>
           <div >
-          <img className='foto1' src="../src/pictures/pale2.png" alt="" />
+          <img className='foto1' src="../pictures/pale2.png" alt="" />
           </div>
           <h2 className='icbaslik1'>
           Разнообразные <br />
@@ -497,7 +497,7 @@ function Producttt() {
 
           <div className='groupdiv'>
           <div >
-          <img className='foto1' src="../src/pictures/pale3.png" alt="" />
+          <img className='foto1' src="../pictures/pale3.png" alt="" />
           </div>
           <h2 className='icbaslik1'>
             Живая <br />
@@ -517,7 +517,7 @@ function Producttt() {
 
           <div className='groupdiv'>
           <div >
-          <img className='foto1' src="../src/pictures/pale4.png" alt="" />
+          <img className='foto1' src="../pictures/pale4.png" alt="" />
           </div>
           <h2 className='icbaslik1'>
           Развивающие <br />
@@ -537,7 +537,7 @@ function Producttt() {
 
           <div className='groupdiv'>
           <div >
-          <img className='foto1' src="../src/pictures/pale5.png" alt="" />
+          <img className='foto1' src="../pictures/pale5.png" alt="" />
           </div>
           <h2 className='icbaslik1'>
           Приятные дополнения к<br /> празднику
@@ -558,7 +558,7 @@ function Producttt() {
 
           <div className='groupdiv'>
           <div >
-          <img className='foto1' src="../src/pictures/pale6.png" alt="" />
+          <img className='foto1' src="../pictures/pale6.png" alt="" />
           </div>
           <h2 className='icbaslik1'>
           Праздничный <br />
@@ -578,7 +578,7 @@ function Producttt() {
 
           <div className='groupdiv'>
           <div >
-          <img className='foto1' src="../src/pictures/pale7.png" alt="" />
+          <img className='foto1' src="../pictures/pale7.png" alt="" />
           </div>
           <h2 className='icbaslik1'>
           Дневной детский <br />
@@ -597,7 +597,7 @@ function Producttt() {
 
           <div className='groupdiv'>
           <div >
-          <img className='foto1' src="../src/pictures/pale8.png" alt="" />
+          <img className='foto1' src="../pictures/pale8.png" alt="" />
           </div>
           <h2 className='icbaslik1'>
           Аренда <br />
@@ -617,7 +617,7 @@ function Producttt() {
           <div className="groupdivtel">
           <div className='groupdiv'>
           <div >
-          <img className='foto1' src="../src/pictures/pale.png" alt="" />
+          <img className='foto1' src="../pictures/pale.png" alt="" />
           </div>
           <h2 className='icbaslik1'>
             Тематические <br />
@@ -637,7 +637,7 @@ function Producttt() {
 
           <div className='groupdiv'>
           <div >
-          <img className='foto1' src="../src/pictures/pale1.png" alt="" />
+          <img className='foto1' src="../pictures/pale1.png" alt="" />
           </div>
           <h2 className='icbaslik1'>
           Любимый герой проведет<br /> незабываемый праздник 
@@ -657,7 +657,7 @@ function Producttt() {
 
           <div className='groupdiv'>
           <div >
-          <img className='foto1' src="../src/pictures/pale2.png" alt="" />
+          <img className='foto1' src="../pictures/pale2.png" alt="" />
           </div>
           <h2 className='icbaslik1'>
           Разнообразные <br />
@@ -696,7 +696,7 @@ function Producttt() {
               <div className='tel1'>
                 <div className='box'><h1>1</h1></div>
                 <div>
-                     <img className='telefon1'  src="../src/pictures/telefon1.png" alt="" />
+                     <img className='telefon1'  src="../pictures/telefon1.png" alt="" />
                 </div>  
                 <div className='yazilartop'>
                     <h1 className='telyazi1'>Позвонить или написать нам</h1>
@@ -709,7 +709,7 @@ function Producttt() {
               <div className='paint1'>
               <div className='box'><h1>2</h1></div>
                 <div>
-                     <img className='telefon1'  src="../src/pictures/paint.png" alt="" />
+                     <img className='telefon1'  src="../pictures/paint.png" alt="" />
                 </div>  
                 <div div className='yazilartop' >
                     <h1 className='telyazi1'>Выбрать программу праздника</h1>
@@ -729,7 +729,7 @@ function Producttt() {
                 </div>  
                 <div className='takvimrow'>
                     
-                    <img className='telefon1'  src="../src/pictures/takvim.png" alt="" />
+                    <img className='telefon1'  src="../pictures/takvim.png" alt="" />
                     <h2 className='telyazi2'>Выбрать дату и время и место праздника </h2>
                 </div>
               </div>
@@ -743,7 +743,7 @@ function Producttt() {
                 <div className='wrap' style={{marginTop:"70px"}}>
                 <div className='takvimrow'>
                     
-                    <img className='telefon1'  src="../src/pictures/cuzdan.png" alt="" />
+                    <img className='telefon1'  src="../pictures/cuzdan.png" alt="" />
                     <h2  className='telyazi2'>Внесите предоплату в размере 1000 рублей любым удобным способом:  обычным переводом с помощью СБП либо наличными </h2>
                 </div>
                 </div>
@@ -757,7 +757,7 @@ function Producttt() {
                 </div>  
                 <div className='takvimrow'>
                     
-                    <img className='telefon1'  src="../src/pictures/ok.png" alt="" />
+                    <img className='telefon1'  src="../pictures/ok.png" alt="" />
                     <h2 className='telyazi2'>Отлично, вам остается лишь  наслаждаться праздником  </h2>
                 </div>
               </div>
@@ -789,7 +789,7 @@ function Producttt() {
           </div>
           <div className='maindiv1'>
             <div >
-              <img className='resim1_1' style={{margin:"0px 20px 0px 20px"}} src="../src/pictures/ruby.png" alt="" />
+              <img className='resim1_1' style={{margin:"0px 20px 0px 20px"}} src="../pictures/ruby.png" alt="" />
             </div>
             <div style={{height:"300px",margin:"0px 20px 0px 20px"}}>
               <div>
@@ -817,14 +817,14 @@ function Producttt() {
             </div>
 
             <div style={{height:"300px",margin:"0px 20px 0px 20px"}}>
-              <img className='resim2_1'  src="../src/pictures/ruby2.png" alt="" />
+              <img className='resim2_1'  src="../pictures/ruby2.png" alt="" />
             </div>
           </div>
 
 
           <div className='maindiv1' style={{marginTop:"20px"}}>
             <div>
-              <img className='resim3_1' style={{margin:"0px 20px 0px 20px"}} src="../src/pictures/ruby3.png" alt="" />
+              <img className='resim3_1' style={{margin:"0px 20px 0px 20px"}} src="../pictures/ruby3.png" alt="" />
             </div>
             <div style={{height:"300px",margin:"0px 20px 0px 20px"}}>
               <div >
@@ -861,7 +861,7 @@ function Producttt() {
             </div>
 
             <div style={{margin:"0px 20px 0px 20px"}}>
-              <img className='resim4_1' src="../src/pictures/ruby4.png" alt="" />
+              <img className='resim4_1' src="../pictures/ruby4.png" alt="" />
             </div>
           </div>
           </div>
@@ -873,7 +873,7 @@ function Producttt() {
           </div>
           <div className='maindiv1'>
             <div >
-              <img className='resim1_11' style={{margin:"0px 20px 0px 20px"}} src="../src/pictures/ruby11.png" alt="" />
+              <img className='resim1_11' style={{margin:"0px 20px 0px 20px"}} src="../pictures/ruby11.png" alt="" />
             </div>
             <div style={{height:"auto",margin:"20px "}}>
               <div>
@@ -890,7 +890,7 @@ function Producttt() {
           <div className='maindiv1'>
 
           <div style={{margin:"0px 20px 0px 20px"}}>
-              <img className='resim2_22'  src="../src/pictures/ruby22.png" alt="" />
+              <img className='resim2_22'  src="../pictures/ruby22.png" alt="" />
             </div>
             
             <div style={{margin:" 20px",height:"auto"}}>
@@ -910,7 +910,7 @@ function Producttt() {
 
           <div className='maindiv1'>
             <div>
-              <img className='resim3_33' style={{margin:"0px 20px 0px 20px"}} src="../src/pictures/ruby33.png" alt="" />
+              <img className='resim3_33' style={{margin:"0px 20px 0px 20px"}} src="../pictures/ruby33.png" alt="" />
             </div>
             <div style={{height:"auto",margin:" 20px"}}>
               <div >
@@ -935,7 +935,7 @@ function Producttt() {
                        
 
             <div style={{margin:"60px 20px 0px 20px"}}>
-              <img className='resim4_44' src="../src/pictures/ruby44.png" alt="" />
+              <img className='resim4_44' src="../pictures/ruby44.png" alt="" />
             </div>
 
             <div style={{margin:"20px"}}>
@@ -963,17 +963,17 @@ function Producttt() {
           <div className='maindivmoney'>
             <div className='moneydiv'>
               <p className='moneyyazi'>Скидка 10% на второй праздник в течение года!</p>
-              <img className='money' src="../src/pictures/money.png" alt="" />
+              <img className='money' src="../pictures/money.png" alt="" />
 
             </div>
             <div className='moneydiv'>
               <p className='moneyyazi'>При заказе на сумму от 15 тыс.  рублей подарок каждому ребенку</p>
-              <img className='money' src="../src/pictures/gift.png" alt="" />
+              <img className='money' src="../pictures/gift.png" alt="" />
 
             </div>
             <div className='moneydiv'>
               <p className='moneyyazi'>При заказе на сумму от 20 тыс.  рублей пиньята в подарок</p>
-              <img className='money' src="../src/pictures/star.png" alt="" />
+              <img className='money' src="../pictures/star.png" alt="" />
 
             </div>
 
@@ -982,18 +982,18 @@ function Producttt() {
 
           <div className='maindivmoney1'>
             <div className='moneydiv1'>
-              <img className='money' src="../src/pictures/money.png" alt="" />
+              <img className='money' src="../pictures/money.png" alt="" />
               <p className='moneyyazi'>Скидка 10% на второй праздник в течение года!</p>
               
 
             </div>
             <div className='moneydiv1'>
               <p className='moneyyazi'>При заказе на сумму от 15 тыс.  рублей подарок каждому ребенку</p>
-              <img className='money' src="../src/pictures/gift.png" alt="" />
+              <img className='money' src="../pictures/gift.png" alt="" />
 
             </div>
             <div className='moneydiv1'>
-            <img className='money' src="../src/pictures/star.png" alt="" />
+            <img className='money' src="../pictures/star.png" alt="" />
               <p className='moneyyazi'>При заказе на сумму от 20 тыс.  рублей пиньята в подарок</p>
               
 
