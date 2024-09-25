@@ -208,7 +208,7 @@ class Moruk2 extends Component {
       {
         name: "Алексей Вахрушев",
         imagewk:"../pictures/Vector.png",
-        image: "../pictures/varya2.png",
+        image: "../pictures/kardresim1.png",
         text: "Etkinlik açıklaması 3.",
       },
     ];
