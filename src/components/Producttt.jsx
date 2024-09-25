@@ -390,7 +390,7 @@ function Producttt() {
               <div className='column' style={{width:"100%"}}>
               <div className='soltaraf'>
                 <img className='ev' src="../pictures/ev.png" alt="" />
-                <p className='soltaraf1'>У вас дома или в кафе</p>
+                <p className='soltaraf'>У вас дома или в кафе</p>
               </div>
               
               

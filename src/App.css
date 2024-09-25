@@ -302,7 +302,7 @@ article::before {
     height: 100%;  
     opacity: 0.2; 
     z-index: -1;
-    background: url("pictures/asd.png");
+    background: url("../pictures/asd.png");
     border-radius: 50%;
     background-repeat: no-repeat;
   }
@@ -380,7 +380,8 @@ margin-bottom: 10px;
     justify-content: flex-start;
     align-items: center;
     width: 448px;
-    
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 600;
     
     
 
@@ -467,8 +468,9 @@ opacity: 0px;
 line-height: 32.69px;
 align-items: center;
 justify-content: center;
-
+margin-right: 10px;
 isolation: isolate;
+
 
 }
 .palace{
@@ -576,9 +578,9 @@ color: #FFFFFF;
 
 .lazy{
     border-radius: 5px;
-    width: 460px;
+    width: 440px;
     height: 508px;
-    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .image{
@@ -735,6 +737,8 @@ text-align: justify;
     background: #efefef;
     text-align: center;
   }
+
+ 
 
   
 
@@ -1819,6 +1823,7 @@ justify-content: center;
             width: 320px;
             justify-content: center;
             align-items: center;
+            padding: 0;
         }
         .each-slide{
             width: 300px;
@@ -1895,6 +1900,7 @@ justify-content: center;
         }
         .beyaz{
             width: 430px;
+            height: 500px;
         }
         .slide-container{
             width: 290px;
